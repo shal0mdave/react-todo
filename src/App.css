@@ -1,0 +1,17 @@
+.App .item-card{
+      margin-top: 10%;
+}
+.App .item-card .card{
+      background: #fff;
+      border: 1px solid rgba(83, 98, 124, 0.07);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 12px 0px;
+}
+.App .item-card .card .card-body{
+      width: 80%;
+      margin: 0px auto;
+}
+.App .item-card .card .centered{
+      text-align: center;
+      font-size: 24px;
+}

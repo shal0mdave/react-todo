@@ -1,0 +1,33 @@
+.list-group{
+      background: none;
+      
+}
+.list-group li.empty{
+      text-align: center;
+}
+.list-group li:first-child{
+      border-top: none;
+}
+.list-group li{
+      transition: 0.6s ease-in-out;
+      background: none;
+      font-weight: 500;
+      border-top: 1px solid rgb(229, 231, 235);
+}
+.list-group li .delete{
+      border: 1px solid#f00;
+      height: 30px;
+      width: 30px;
+      background-color: #fff;
+      color: #f00;
+      border-radius: 50%;
+      font-size: 14px;
+      box-shadow: rgba(0, 0, 0, 0.09) 2px 7px 20px 0px;
+      transition: 0.2s ease-in-out;
+}
+.list-group li .delete:hover{
+      box-shadow: none;
+      background-color: #f00;
+      color: #fff;
+      transition: 0.2s ease-in-out;
+}

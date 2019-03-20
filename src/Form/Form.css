@@ -1,0 +1,19 @@
+form{
+      margin: 10% auto;
+}
+form .form-group input[type="text"]{
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 20px;
+      border: 1px solid rgb(229, 231, 235);
+}
+form .form-group input[type="text"]:focus{
+      box-shadow: rgba(0, 0, 0, 0.04) 2px 5px 20px 0px;
+}
+form .form-group .form-text{
+      text-align: center;
+      color: #000;
+      margin-bottom: 5%;
+      font-weight: 200;
+}
